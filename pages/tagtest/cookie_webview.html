@@ -6,7 +6,8 @@
 <body>
   <script type="text/javascript">
   var message = {
-    event_name: webview_event,
+    command: 'foxEvent',
+    event_name: 'webview_event',
     ltvid: 0000
   };
   webkit.messageHandlers.sendFoxEvent.postMessage(message);
